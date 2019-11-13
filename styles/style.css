@@ -51,6 +51,7 @@ a:active {
     text-decoration: underline;
 }
 /* End Anchor / Hyperlink */
+
 /* Start Menu Primer */
 .menu-primer ul {
     background-color: rgb(235, 114, 1);
@@ -157,6 +158,36 @@ h6 {
     text-transform: none;
 }
 
+.box-heading1 h3 {
+    background-color:  rgba(75, 137, 224, 0.932);
+    border: 1px solid  rgb(141, 182, 240);
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading2 h3 {
+    font-size: 16px;
+    background-color:  rgb(245, 125, 12);
+    border: 1px solid  rgb(240, 179, 123);
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading1 h2 {
+    background-color:   rgba(24, 90, 182, 0.781);
+    border: 1px solid rgb(141, 182, 240);
+    color: #ffffff;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 .box-heading h3 {
     font-size: 16px;
     margin: 0;
@@ -166,14 +197,15 @@ h6 {
     font-size: 14px;
     margin: 0;
 }
-.box-heading1 h3 {
-    font-size: 16px;
-    background-color:  rgba(252, 185, 122, 0.932);
-    border: 1px solid  rgb(240, 179, 123);
-    border-radius: 3px 3px 0 0;
+
+.box-isi {
+    background-color: rgb(213, 230, 253);
+    border: 1px solid  rgb(183, 208, 243);
+    border-top: 0;
     margin: 0;
     padding: 10px 20px;
-    text-transform: uppercase;
+    height: auto;
+    text-align: justify
 }
 .box-isi1 {
     background-color: rgb(213, 230, 253);
@@ -182,6 +214,7 @@ h6 {
     margin: 0;
     padding: 10px 20px;
     height: 300px;
+    text-align: justify;
 }
 
 .box-isi2 {
@@ -191,6 +224,7 @@ h6 {
     margin: 0;
     padding: 10px 20px;
     height: 120px;
+    text-align: justify;
 }
 
 .box-isi3 {
@@ -199,9 +233,11 @@ h6 {
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
-    height: 100px;
+    height: auto;
     font-size: 13px;
+    text-align: justify
 }
+
 /* End Box */
 
 /* Star Komentar */
