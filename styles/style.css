@@ -344,6 +344,13 @@ h6 {
     font-weight: bold;
 }
 
+.grid-item2 {
+    border: 1px solid rgb(29, 154, 238) ;
+    padding: 10px;
+    font-size: 14;
+    text-align: center;
+}
+
 /* End Grid */
 
 /*Start Image*/
