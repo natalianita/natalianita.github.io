@@ -66,7 +66,6 @@ a:active {
     border-right: 1px solid rgb(214, 214, 214);
     display: inline-block;
     margin: 0 -4px;
-    font-weight: bold;
 }
 
 .menu-primer a {
@@ -74,7 +73,7 @@ a:active {
     font-size: 16px;
     display: inline-block;
     letter-spacing: 1px;
-    padding: 10px 30px;
+    padding: 5px 30px;
 }
 
 .menu-primer a:hover {
@@ -102,7 +101,7 @@ h2 {
     font-size: 24px;
 }
 h3 {
-    font-size: 18px;
+    font-size: 20px;
 }
 h4 {
     font-size: 16px;
@@ -157,6 +156,11 @@ h6 {
 .main-home-two .box-isi {
     height: 140px;
 }
+
+.main-home-one .box-isi4,
+.main-home-two .box-isi4 {
+    height: 560px;
+}
 /* End Main */
 
 /* Start Box */
@@ -169,25 +173,6 @@ h6 {
     text-transform: none;
 }
 
-.box-heading1 h3 {
-    background-color:  rgba(75, 137, 224, 0.932);
-    border: 1px solid  rgb(141, 182, 240);
-    border-radius: 3px 3px 0 0;
-    margin: 0;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.box-heading2 h3 {
-    font-size: 16px;
-    background-color:  rgb(245, 125, 12);
-    border: 1px solid  rgb(240, 179, 123);
-    border-radius: 3px 3px 0 0;
-    margin: 0;
-    padding: 10px 20px;  
-    text-transform: uppercase;
-}
 
 .box-heading1 h2 {
     background-color:   rgba(24, 90, 182, 0.781);
@@ -200,9 +185,48 @@ h6 {
     text-transform: uppercase;
 }
 
+.box-heading2 h2 {
+    background-color:  rgb(245, 125, 12);
+    border: 1px solid  rgb(240, 179, 123);
+    color: #ffffff ;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;  
+    text-transform: uppercase;
+}
+
 .box-heading h3 {
     font-size: 16px;
     margin: 0;
+}
+.box-heading1 h3 {
+    background-color:  rgba(75, 137, 224, 0.932);
+    border: 1px solid  rgb(141, 182, 240);
+    color: #ffffff ;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading2 h3 {
+    background-color:  rgb(245, 125, 12);
+    border: 1px solid  rgb(240, 179, 123);
+    color: #ffffff ;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;  
+    text-transform: uppercase;
+}
+
+.box-heading3 h3 {
+    background-color:  rgba(194, 39, 39, 0.897);
+    border: 1px solid  rgb(255, 87, 87);
+    color: #ffffff ;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;  
+    text-transform: uppercase;
 }
 
 .box-heading h4 {
@@ -217,8 +241,9 @@ h6 {
     margin: 0;
     padding: 10px 20px;
     height: auto;
-    text-align: justify
+    text-align: justify;
 }
+
 .box-isi1 {
     background-color: rgb(213, 230, 253);
     border: 1px solid  rgb(183, 208, 243);
@@ -246,10 +271,33 @@ h6 {
     margin: 0;
     padding: 10px 20px;
     height: auto;
-    font-size: 13px;
-    text-align: justify
+    font-size: 15px;
+    text-align: justify;
 }
 
+.box-isi4 {
+    background-color: rgb(250, 220, 212);
+    background-image: linear-gradient(rgb(255, 214, 187), rgb(193, 209, 255));
+    border: 1px solid  rgb(230, 230, 230);
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    height: auto;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.box-isi5 {
+    background-color: rgb(255, 235, 235);
+    background-image: linear-gradient(rgb(255, 235, 235), rgb(255, 140, 140));
+    border: 1px solid  rgb(230, 230, 230);
+    border-top: 0;
+    margin: 0;
+    padding: 20px 30px;
+    height: auto;
+    font-size: 15px;
+    text-align: justify;
+} 
 /* End Box */
 
 /* Start Grid */
@@ -261,12 +309,23 @@ h6 {
 }
 
 .grid-container1 {
-    background-color: #d3feff;
-    border:  #defeff;
+    background-color: #ffeafa;
+    background-image: linear-gradient(rgba(219, 223, 233, 0.932), rgb(255, 175, 242));
+    border:rgba(217, 221, 233, 0.932);
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     padding: 10px;
+}
+
+.grid-container2 {
+    background-color: rgb(173, 173, 173);
+    background-image: linear-gradient(rgb(255, 194, 153), rgb(140, 171, 255));
+    border: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 15px;
 }
 
 .grid-item {
@@ -274,6 +333,7 @@ h6 {
     padding: 10px;
     font-size: 14;
     text-align: center;
+    font-weight: bold;
 }
 
 .grid-item1 {
@@ -285,6 +345,64 @@ h6 {
 }
 
 /* End Grid */
+
+/*Start Image*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*End Image*/
+
+/*Start Form*/
+input[type=text], select {
+    width: 100%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea[name=pesan], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(128, 71, 233);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold; 
+  }
+  
+  input[type=submit]:hover {
+    background-color: #6f33a0;
+  }
+/*End Form*/
 
 /* Start Komentar */
 .komentar {
